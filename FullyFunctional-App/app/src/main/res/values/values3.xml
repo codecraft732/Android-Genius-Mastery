@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name4">full-functional-App</string>
+    <string name="fullfunctionalApp">full-functional-App</string>
+    <string name="paragraph4"> 1. HTML (Hypertext Markup Language): The structure of web pages, defining elements like headings, paragraphs, and links.\n
+
+2. CSS (Cascading Style Sheets): Controls the layout and appearance of HTML elements, including colors, fonts, and spacing.\n
+
+3. JavaScript: Adds interactivity and dynamic content to web pages, enabling features like form validation and interactive elements.\n
+
+4. Responsive Design: Ensures that web pages look and function well on various devices and screen sizes, using techniques like media queries.\n
+
+5. Frameworks and Libraries: Tools like React, Angular, or Vue.js that simplify and speed up development by providing pre-built components and structures.\n
+
+6. Version Control: Systems like Git help manage and track changes in code, allowing for collaboration and version management. \n </string>
+</resources>

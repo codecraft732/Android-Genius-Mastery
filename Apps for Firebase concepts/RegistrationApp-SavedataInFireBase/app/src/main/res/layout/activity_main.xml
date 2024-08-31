@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signup"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:id="@+id/tVName"
+            android:layout_height="match_parent"
+            android:hint="       Enter your Name " />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:id="@+id/tVMail"
+            android:hint="       Enter your Mail Address" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        app:startIconDrawable="@drawable/baseline_lock_outline_24"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:id="@+id/tVPassword"
+            android:hint="       Enter your Password " />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_margin="18dp"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:id="@+id/tVUniqueId"
+            android:hint="       Enter your Unique ID " />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:backgroundTint="@color/Blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="SignUp" />
+
+    <TextView
+        android:id="@+id/textSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="If already registered then, Click SignIn" />
+
+
+</LinearLayout>

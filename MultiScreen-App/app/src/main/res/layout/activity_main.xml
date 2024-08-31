@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:layout_margin="30dp"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="320dp"
+       android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:padding="19dp"
+        android:gravity="center"
+      android:background="@color/seaBlue"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to Mecdonals(MC)" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@color/lightGrey"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text="Enter First order" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/lightGrey"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text=" 2nd order" />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:background="@color/lightGrey"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text="third order" />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:background="@color/lightGrey"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:text="last order" />
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/seaBlue"
+        android:layout_margin="20dp"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="order now" />
+</LinearLayout>

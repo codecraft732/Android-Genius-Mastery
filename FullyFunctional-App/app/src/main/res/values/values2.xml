@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name13">alternate-functional-App</string>
+    <string name="alternate_functionalApp">alternate-functional-App</string>
+    <string name="paragraph3">1. Server-Side Languages: Languages like Python, JavaScript (Node.js), Ruby, PHP, or Java are used to create server-side logic, handle requests, and interact with databases.\n
+
+2. Databases:Systems like MySQL, PostgreSQL, MongoDB, or SQLite store and manage data, enabling applications to retrieve, insert, and update information.\n
+
+3. APIs (Application Programming Interfaces): Provide a way for the frontend to communicate with the backend by defining methods and protocols for data exchange.\n
+
+4. Authentication Authorization:Manage user login and permissions, ensuring secure access to resources and data within an application.\n
+
+5. Server Management:Involves configuring and maintaining servers (e.g., using tools like Docker or cloud platforms like AWS) to host and run web applications.\n
+
+6. Data Processing Management:Handle data processing tasks, such as business logic, data manipulation, and integration with third-party services or internal systems.\n  </string>
+</resources>

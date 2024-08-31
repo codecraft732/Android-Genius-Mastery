@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".activity_master">
+
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:background="@color/lightblue"
+        android:text="Fully Functional App"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="413dp"
+        android:layout_height="12dp"
+        android:background="@color/black"
+        />
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Welcome to Alishba Knowledge Hub!"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_margin="65dp"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/lightblue"
+        android:layout_marginTop="1dp"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="350dp"
+        android:text="Let's Click Here"
+        />
+
+
+</LinearLayout>

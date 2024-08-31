@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="@color/grey"
+        android:id="@+id/tv"
+        android:layout_height="58dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey"
+        android:layout_height="58dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Gmail" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="14dp"
+         android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="please accept term &amp; conditons" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="46dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="23dp"
+            android:backgroundTint="@color/Blue"
+            android:layout_gravity="center"
+            android:text="SignUp" />
+
+</LinearLayout>

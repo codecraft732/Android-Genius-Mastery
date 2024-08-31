@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="seeGreen">	#66cdaa</color>
+    <color name="parrotGreen">#b4eeb4</color>
+    <color name="lightgrey">#cfead9</color>
+    <color name="blue">#11114e</color>
+    <color name="darkSeeGreen">#008282</color>
+    <color name="bluesh">  #005682   </color>
+    <color name="seaGreen">   #008282  </color>
+    <color name="babyPink">  #f4cccc   </color>
+    <color name="purple">  #351c75   </color>
+    <color name="blueu">#3d85c6     </color>
+    <color name="lightBlue">   #9fc5e8  </color>
+    <color name="peach">  #ea9999   </color>
+    <color name="lightGrey">  #5b5b5b   </color>
+    <color name="seaBlue"> #16537e    </color>
+    <color name="darkGrey">  #444444   </color>
+    <color name="skin">   #999999  </color>
+    <color name="grey"> #bcbcbc    </color>
+    <color name="whitelight">   #eeeeee </color>
+    <color name="lightPink"> #d5a6bd </color>
+</resources>

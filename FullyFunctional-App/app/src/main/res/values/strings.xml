@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FullyFunctional-App</string>
+    <string name="FullyfunctionalApp">FullyFunctional-App</string>
+    <string name="paragraph">  1. Learn Java/Kotlin and XML: Basics of coding and UI design.\n
+2. Master Android Studio: Familiarize with the IDE and fundamentals.\n
+3. Study Material Design: Follow Google Ui Ux guidelines.\n
+4. Explore Advanced Components: RecyclerView ViewModel LiveData and Navigation.\n
+5. Utilize Libraries: Jetpack Compose, Retrofit, Glide, and Lottie.\n
+6. Practice and Stay Updated: Build projects and engage with the developer community.\n </string>
+</resources>
+
+

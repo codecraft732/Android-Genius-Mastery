@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDark"
+        android:backgroundTint="#90EE90"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:shadowColor="@color/maroon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:text="Dark" />
+
+    <Button
+        android:id="@+id/btnLight"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#ADD8E6"
+        android:fontFamily="monospace"
+        android:shadowColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:text="Light" />
+</LinearLayout>

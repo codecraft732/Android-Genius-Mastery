@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name6">new-functional-App</string>
+    <string name="newFunctionalApp">new-functional-App</string>
+    <string name="paragraph6"> 1. Swift/Objective-C: Primary programming languages for iOS development. Swift is more modern and commonly used for new projects, while Objective-C is older but still in use.\n
+
+2. UIKit/SwiftUI: UIKit is the traditional framework for building user interfaces, while SwiftUI is a newer declarative framework for more modern UI development.\n
+
+3. Auto Layout: A system for designing responsive layouts that adapt to various screen sizes and orientations.\n
+
+4. View Controllers: Manage the view hierarchy and user interactions. Each screen in an iOS app is typically associated with a view controller.\n
+
+5. Core Data:A framework for managing the model layer objects in an application, often used for local data storage and persistence.\n
+
+6. Networking: Handling network requests and data retrieval from remote servers, commonly using URLSession or third-party libraries like Alamofire.\n
+ </string>
+</resources>

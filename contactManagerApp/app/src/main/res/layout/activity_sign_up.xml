@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:text="Welcome to the SignUp screen" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:background="@color/grey"
+        android:layout_marginTop="40dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvname"
+            android:hint="         Enter your name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        android:background="@color/grey"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="320dp"
+            android:id="@+id/tvemail"
+            android:layout_height="wrap_content"
+            android:hint="         Enter your Email Id" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_marginTop="19dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvuserid"
+            android:hint="          Enter User Id" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_marginTop="19dp"
+        app:endIconMode="password_toggle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="320dp"
+            android:id="@+id/tvpass"
+            android:layout_height="wrap_content"
+            android:hint="          Enter Unique password" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/Blue"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:layout_marginTop="40dp"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/tvsignin"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_height="45dp"
+        android:text="If u already Registered then,          click Sign In " />
+
+</LinearLayout>

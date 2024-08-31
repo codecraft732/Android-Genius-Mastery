@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Scrollview App</string>
+    <string name="TextAndScrollView">Scrollview App</string>
+    <string name="paragraph">Technology has undergone a remarkable transformation over the past few decades, fundamentally altering the way we live, work, and communicate. From the early days of the internet to the proliferation of smartphones,
+        technological advancements have continuously pushed the boundaries of what is possible.
+        The development of artificial intelligence, blockchain, and quantum computing represents the latest frontier in this ongoing revolution, promising to redefine industries and create new opportunities for innovation.\n\n\n
+
+<b><i> impact on Daily Life</i></b>
+        The impact of technology on our daily lives is profound and far-reaching.
+        It has revolutionized communication, making it possible to connect with anyone, anywhere, at any time. Social media platforms, instant messaging apps, and video conferencing tools have made the world more interconnected than ever before.\n
+        Additionally, technology has transformed industries such as healthcare, education, and finance, improving efficiency and accessibility.
+        From telemedicine to online learning platforms, technological innovations have made essential services more convenient and accessible to people worldwide\n\n
+
+<b>Future Prospects</b>
+Looking ahead, the future of technology is both exciting and uncertain.\n Emerging technologies such as artificial intelligence and machine learning have the potential to drive unprecedented levels of automation and efficiency.
+        \n However, these advancements also raise important ethical and societal questions. Issues such as data privacy, job displacement,\n and the digital divide must be addressed to ensure that technological progress benefits all members of society.
+        \n As we navigate this rapidly changing landscape,\n
+        it is crucial to foster a balanced approach that embraces innovation while safeguarding human values and inclusivit.</string>
+</resources>

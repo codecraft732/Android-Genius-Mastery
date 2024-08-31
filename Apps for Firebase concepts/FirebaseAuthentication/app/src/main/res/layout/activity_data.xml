@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin"
+    tools:context=".LogIn">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="280dp"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:id="@+id/tVName"
+            android:hint="   Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:boxStrokeColor="@color/Blue"
+        app:hintTextColor="@color/Blue"
+        android:background="@color/grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:id="@+id/tVAge"
+            android:hint="  Age" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/Blue"
+        android:text="Add"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="56dp"
+    android:layout_marginBottom="50dp"
+
+
+    tools:context=".activity_second">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:id="@+id/tV1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="App development"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/tV2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Web development"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp">
+            <TextView
+                android:id="@+id/tV3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="IOS development"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/tV4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="crossplatform development"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/tV5"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="BlockChain"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lightblue"
+            android:layout_margin="8dp">
+
+
+            <TextView
+                android:id="@+id/tV6"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Machine Learning"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_margin="40dp"
+        android:text="call us"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/lightblue"
+        android:textSize="19dp"/>
+
+
+</LinearLayout>

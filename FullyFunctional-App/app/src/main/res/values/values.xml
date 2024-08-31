@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="app_name2">alternate-functional-App</string>
+    <string name="fullFormFunctionalApp">full-form-functional-App</string>
+    <string name="paragraph2">1. Learn Java/Kotlin: Basics of backend coding.\n
+2. Understand REST APIs: Create and consume REST ful services.\n
+3. Database Management: Use SQLite, Room, and Firebase.\n
+4. Authentication: Implement user authentication and authorization.\n
+5. Server-side Development: Use Node.js, Spring Boot, or Django for backend logic.\n
+6. Practice and Stay Updated: Build projects and follow industry trends.\n  </string>
+</resources>

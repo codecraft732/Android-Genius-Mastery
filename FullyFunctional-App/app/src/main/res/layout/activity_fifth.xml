@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".activity_fifth">
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:background="@color/lightblue"
+        android:text="IOS Development" />
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginTop="22dp"
+        android:text="FrontEndDevelopment RoadMap"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <TextView
+            android:id="@+id/textViw3"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="@string/paragraph6"
+            android:textSize="20dp" />
+    </ScrollView>
+    <TextView
+        android:id="@+id/textViw1"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginTop="22dp"
+        android:text="BackEndDevelopment RoadMap"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <TextView
+            android:id="@+id/textVie2"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="@string/paragraph5"
+            android:textSize="20dp" />
+    </ScrollView>
+
+</LinearLayout>
